@@ -8,11 +8,15 @@ Template - UltimateApp
 
 You need to have locally installed Yarn
 
+Install packages with command
+
+```
+yarn
+```
+
 For compiling sass use
 
 
 ```
-#!terminal
-
 sass -w styles/main.sass:styles/main.css
 ```
