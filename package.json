@@ -1,0 +1,13 @@
+{
+  "name": "ultimate-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Radoslava Gettova",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "isotope-layout": "^3.0.4",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  }
+}
