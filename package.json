@@ -4,10 +4,16 @@
   "main": "index.js",
   "author": "Radoslava Gettova",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/node-sass/bin/node-sass -w styles/main.sass styles/main.css "
+  },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "isotope-layout": "^3.0.4",
     "jquery": "^3.2.1",
     "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
   }
 }

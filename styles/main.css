@@ -4,16 +4,19 @@
   src: url("../assets/fonts/Lato-Bold.ttf");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: "Lato Regular";
   src: url("../assets/fonts/Lato-Regular.ttf");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: "Lato Light";
   src: url("../assets/fonts/Lato-Light.ttf");
   font-weight: normal;
   font-style: normal; }
+
 * {
   outline: none; }
 
@@ -239,7 +242,7 @@ button.navbar-toggler.navbar-toggler-right {
       display: none; } }
 
 .ultimate {
-  font-family: "Lato Regular"; }
+  font-family: 'Lato Regular'; }
 
 @media screen and (max-width: 1024px) {
   .app-tooltip {
@@ -990,8 +993,10 @@ ul.footer-ul li:before {
       margin-right: 5px; } }
 
 ul.footer-ul li {
-  padding: 10px 0;
-  padding: 5px 0; }
+  padding: 10px 0; }
+  @media screen and (max-width: 961px) {
+    ul.footer-ul li {
+      padding: 5px 0; } }
 
 ul.ul-right li {
   margin-right: 60px; }
@@ -1047,5 +1052,3 @@ ul.ul-right li {
 
 .tooltip.tooltip-top .tooltip-inner::before, .tooltip.bs-tether-element-attached-bottom .tooltip-inner::before {
   border-top-color: red; }
-
-/*# sourceMappingURL=main.css.map */
